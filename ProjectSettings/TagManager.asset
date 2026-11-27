@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - Bullets
+  - Confiner
+  - Enemy
+  - Layer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Sky
+    uniqueID: 2941087317
+    locked: 0
+  - name: Cloud
+    uniqueID: 150933537
+    locked: 0
+  - name: Background
+    uniqueID: 1368798251
+    locked: 0
+  - name: Player
+    uniqueID: 363362243
+    locked: 0
+  - name: Foreground
+    uniqueID: 865058697
+    locked: 0
+  - name: Weapon_1
+    uniqueID: 4019656091
+    locked: 0
+  - name: NearHand3
+    uniqueID: 895606661
+    locked: 0
+  m_RenderingLayers:
+  - Default

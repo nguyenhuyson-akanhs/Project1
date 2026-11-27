@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: testGraphView
+  m_EditorClassIdentifier: Runtime::Subtegral.DialogueSystem.DataContainers.DialogueContainer
+  NodeLinks:
+  - BaseNodeGUID: 30751531-faad-4870-a161-1ffcee388e66
+    PortName: Next
+    TargetNodeGUID: 826541f0-f916-4d73-9d2f-aee407ca2418
+  - BaseNodeGUID: 826541f0-f916-4d73-9d2f-aee407ca2418
+    PortName: 3
+    TargetNodeGUID: b4841fde-976a-424a-8fcc-f206572c33e2
+  - BaseNodeGUID: 826541f0-f916-4d73-9d2f-aee407ca2418
+    PortName: 7
+    TargetNodeGUID: ea28049d-5635-4809-91e7-bfd41fbb5f0c
+  - BaseNodeGUID: 826541f0-f916-4d73-9d2f-aee407ca2418
+    PortName: d
+    TargetNodeGUID: 5849fa69-d8b2-4d4a-be92-ed9743bc9310
+  - BaseNodeGUID: 826541f0-f916-4d73-9d2f-aee407ca2418
+    PortName: "d\u01B0"
+    TargetNodeGUID: 560d9024-0b58-48f1-8dad-17d2c361a566
+  - BaseNodeGUID: 826541f0-f916-4d73-9d2f-aee407ca2418
+    PortName: w
+    TargetNodeGUID: b886eb34-2c21-4282-ae21-b60530e26561
+  - BaseNodeGUID: 826541f0-f916-4d73-9d2f-aee407ca2418
+    PortName: 5
+    TargetNodeGUID: c949f543-947e-486c-858a-1070b0b442f3
+  - BaseNodeGUID: b4841fde-976a-424a-8fcc-f206572c33e2
+    PortName: Option 1
+    TargetNodeGUID: 1c6cfb4e-6e13-4da5-a796-efb5bd8d06c3
+  - BaseNodeGUID: b4841fde-976a-424a-8fcc-f206572c33e2
+    PortName: Option 2
+    TargetNodeGUID: 3a83f4f3-f9d5-419a-a6c2-e3b472aa8ee3
+  - BaseNodeGUID: b4841fde-976a-424a-8fcc-f206572c33e2
+    PortName: Option 3
+    TargetNodeGUID: 16811c37-0da1-445e-a090-17e367bb3fea
+  DialogueNodeData:
+  - NodeGUID: b29404dc-cc03-4986-815c-a6b95978531f
+    DialogueText: r
+    Position: {x: 0, y: 0}
+  - NodeGUID: 826541f0-f916-4d73-9d2f-aee407ca2418
+    DialogueText: '1 + 1 = ? '
+    Position: {x: 456.66666, y: 196}
+  - NodeGUID: ea28049d-5635-4809-91e7-bfd41fbb5f0c
+    DialogueText: w
+    Position: {x: 876, y: 414.66666}
+  - NodeGUID: 5849fa69-d8b2-4d4a-be92-ed9743bc9310
+    DialogueText: Dialogue Node
+    Position: {x: 938, y: 536}
+  - NodeGUID: 560d9024-0b58-48f1-8dad-17d2c361a566
+    DialogueText: Dialogue Node
+    Position: {x: 941.3333, y: 650}
+  - NodeGUID: b886eb34-2c21-4282-ae21-b60530e26561
+    DialogueText: Dialogue Node
+    Position: {x: 956, y: 786}
+  - NodeGUID: b4841fde-976a-424a-8fcc-f206572c33e2
+    DialogueText: w
+    Position: {x: 859.3333, y: 78.666664}
+  - NodeGUID: c949f543-947e-486c-858a-1070b0b442f3
+    DialogueText: w
+    Position: {x: 838, y: 300.66666}
+  - NodeGUID: 1c6cfb4e-6e13-4da5-a796-efb5bd8d06c3
+    DialogueText: Dialogue Node
+    Position: {x: 1229.3334, y: 134.66667}
+  - NodeGUID: 3a83f4f3-f9d5-419a-a6c2-e3b472aa8ee3
+    DialogueText: Dialogue Node
+    Position: {x: 1308.6666, y: 259.33334}
+  - NodeGUID: 16811c37-0da1-445e-a090-17e367bb3fea
+    DialogueText: Dialogue Node
+    Position: {x: 1274, y: 424.66666}
+  ExposedProperties:
+  - PropertyName: first
+    PropertyValue: New Value
+  - PropertyName: New String(1)
+    PropertyValue: New Value
+  - PropertyName: New String(1)(1)
+    PropertyValue: New Value
+  CommentBlockData: []
